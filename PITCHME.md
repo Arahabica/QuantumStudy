@@ -244,5 +244,7 @@ $ + \alpha_{11} |11\rangle$
 
 1つ目の量子ビットが0と観測されると
 $$
-|\psi'\rangle = \dfranc{\alpha_{00}|00\rangle + \alpha_{01}|01\rangle}{\sqrt{|\alpha_{00}|^2+|\alpha_{01}|^2}}
+|\psi'\rangle = \dfranc
+{\alpha_{00}|00\rangle + \alpha_{01}|01\rangle}
+{\sqrt{|\alpha_{00}|^2+|\alpha_{01}|^2}}
 $$
