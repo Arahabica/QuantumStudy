@@ -198,16 +198,16 @@ $$
 #### ブロッホ球 Bloch sphere
 
 $$
-|\psi\rangle = \alpha|0\rangle + \beta|0\rangle \qquad (\alpha ,\beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1)
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle \qquad (\alpha ,\beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1)
 $$
 $$
-|\psi\rangle = e^{i\gamma}(\cos \dfrac {\theta }{2} + e^{i\gamma}\sin\dfrac {\theta }{2}) \qquad (\theta,\gamma \in \mathbb{R})
+|\psi\rangle = e^{i\gamma}(\cos \dfrac {\theta }{2} |0\rangle + e^{i\gamma}\sin\dfrac {\theta }{2}|1\rangle) \qquad (\theta,\gamma \in \mathbb{R})
 $$
 
 $e^{i\gamma}$は観察可能な影響を与えない
 
 $$
-|\psi\rangle =\cos \dfrac {\theta }{2} + e^{i\gamma}\sin\dfrac {\theta }{2}
+|\psi\rangle =\cos \dfrac {\theta }{2}|0\rangle + e^{i\gamma}\sin\dfrac {\theta }{2}|1\rangle
 $$
 
 
