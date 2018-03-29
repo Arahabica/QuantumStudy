@@ -23,3 +23,8 @@ body .reveal .slides ul {
 body .reveal .slides ol {
     margin-left: 40px;
 }
+
+.MathJax_Display {
+  text-align: left !important;
+  text-indent: 2em !important;
+}
