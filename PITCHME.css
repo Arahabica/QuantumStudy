@@ -16,6 +16,10 @@ body .reveal h4 {
     margin-left: 0;
     margin-right: 0;
 }
-body .reveal .slides ul, ol {
+body .reveal .slides ul {
+    margin-left: 40px;
+}
+
+body .reveal .slides ol {
     margin-left: 40px;
 }
