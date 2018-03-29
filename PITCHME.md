@@ -89,7 +89,7 @@
 ---
 
 
-![Deutsch](assets/deutsch.jpg)
+![Deutsch](assets/deutsch.jpg=250x)
 
 デイヴィッド・ドイッチュ ( David Deutch)
 
