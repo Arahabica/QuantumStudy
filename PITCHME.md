@@ -183,11 +183,18 @@ RSA暗号、離散対数問題はショアのアルゴリズムで破られる�
 
 $$
 |\psi| = \alpha|0\rangle + \beta|0\rangle
-
+$$
+$$
 \alpha ,\beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1
 $$
 
+* 2次元複素ベクトル空間のベクトル
+    + $ |0\rangle, |1\rangle $ は正規直交基底
+    + $ |0\rangle, |1\rangle $ はcomputational basis state(計算基礎状態)
 
+
+
+---
 
 $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle$$
 
