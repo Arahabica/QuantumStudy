@@ -170,3 +170,9 @@ CSS codes (Rovert Calderbank, Peter Shor, Andrew steane) 1996
 #### 公開鍵暗号
 
 RSA暗号、離散対数問題はショアのアルゴリズムで破られる。
+
+---
+
+\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle
+
+* 50%の確率で0,50%の確率で1の状態
