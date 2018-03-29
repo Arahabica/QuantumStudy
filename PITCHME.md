@@ -183,6 +183,7 @@ RSA暗号、離散対数問題はショアのアルゴリズムで破られる�
 
 $$
 |\psi| = \alpha|0\rangle + \beta|0\rangle
+
 \alpha ,\beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1
 $$
 
