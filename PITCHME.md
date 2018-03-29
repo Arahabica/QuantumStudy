@@ -243,6 +243,27 @@ $ + \alpha_{10} |10\rangle$
 $ + \alpha_{11} |11\rangle$
 
 1つ目の量子ビットが0と観測されると
+
+![math 1](assets/math0.png)
+
+<!--
 $$
 |\psi'\rangle = \dfrac{\alpha_{00}|00\rangle + \alpha_{01}|01\rangle}{\sqrt{|\alpha_{00}|^2+|\alpha_{01}|^2}}
 $$
+-->
+
+---
+
+### ベル状態 (Bell state, EPR pair)
+
+$$
+\frac{|00\rangle + |11\rangle}{\sqrt{2}}
+$$
+
+* 量子テレポテーションで重要
+* 一方を測定すれば他方もわかる
+* Einstein, Podolskey, Rosenが指摘
+
+### $n$ 量子ビット
+
+$2_{n}$個の状態
