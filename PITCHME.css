@@ -12,6 +12,6 @@
     margin-left: 0;
     margin-right: 0;
 }
-.reveal .slides li {
+body .reveal .slides ul {
     margin-left: 30px;
 }
