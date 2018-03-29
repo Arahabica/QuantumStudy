@@ -195,7 +195,7 @@ $$
 * 観測されると確率的に0または1と観測される。
 
 ---
-### ブロッホ球 Bloch sphere
+#### ブロッホ球 Bloch sphere
 
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|0\rangle \qquad (\alpha ,\beta \in \mathbb{C}, |\alpha|^2 + |\beta|^2 = 1)
@@ -213,8 +213,21 @@ $$
 
 ![Bloch Sphere](assets/bloch.svg)
 
---------------------------
+---
 
 $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle$$
 
 * 50%の確率で0,50%の確率で1の状態
+
+---
+
+様々な物理システムが量子ビットを実現
+* 2つの異なる偏光の光子
+* 平等磁界(uniform magnetic field)に置ける核スピンアラインメント
+* 単一原子を旋回する電子の状態
+    + ground 基底状態
+    + 励起状態
+
+---
+
+###

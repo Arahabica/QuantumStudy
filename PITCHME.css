@@ -28,3 +28,7 @@ body .reveal .slides ol {
   text-align: left !important;
   text-indent: 2em !important;
 }
+
+body .reveal h1,body .reveal h2,body .reveal h3,body .reveal h4 {
+    text-transform: none;
+}
