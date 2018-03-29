@@ -236,7 +236,7 @@ $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle
 
 $|\psi\rangle = \alpha_{00} |00\rangle + $
 
-$ \alpha_{00} |00\rangle + \\alpha_{01} |01\rangle$
+$ \alpha_{00} |00\rangle$
 
 1つ目の量子ビットが0と観測されると
 $$
