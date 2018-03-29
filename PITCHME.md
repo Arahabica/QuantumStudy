@@ -234,7 +234,9 @@ $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle
 
 2量子状態
 
-$|\psi\rangle = \alpha_{00} |00\rangle + \alpha_{01} |01\rangle + \alpha_{10} |10\rangle + \alpha_{11} |11\rangle$
+$$
+|\psi\rangle = \alpha_{00} |00\rangle + \gamma + \gamma + \gamma + \gamma + \gamma
+$$
 
 1つ目の量子ビットが0と観測されると
 $$
