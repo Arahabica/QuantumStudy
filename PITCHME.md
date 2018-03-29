@@ -237,5 +237,5 @@ $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle
 
 
 $$
-|\psi\rangle = \alpha_{00} |00\rangle + \alpha_{01} |01\rangle + \alpha_{10} |10\rangle + \alpha_{11} |11\rangle
+|\psi\rangle = \alpha_{00} |00\rangle + \alpha_{01} |01\rangle 
 $$
