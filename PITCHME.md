@@ -234,7 +234,7 @@ $$\sqrt {+}= \dfrac {1}{\sqrt {2}} | 0\rangle + \dfrac {1}{\sqrt {2}} | 1\rangle
 
 2量子状態
 
-![math 0](assets/math0.png)
+![math 0](assets/math00.png)
 
 1つ目の量子ビットが0と観測されると
 
