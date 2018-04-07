@@ -27,6 +27,9 @@ body .reveal .slides ul {
 body .reveal .slides ol {
     margin-left: 40px;
 }
+body .reveal section img {
+    border: 0px solid white;
+}
 
 .MathJax_Display {
   text-align: left !important;
