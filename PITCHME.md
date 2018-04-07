@@ -659,10 +659,13 @@ $$
 |\psi_{3}\left(11\right)\rangle \equiv \left[\alpha|1\rangle - \beta|0\rangle\right]
 $$
 
+---
+古典ビット伝達
 
 $$
 |\psi_{4}\left(00\right)\rangle
 $$
+
 $$
 =Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle
 =\left[\alpha|0\rangle + \beta|1\rangle\right]
@@ -676,6 +679,28 @@ $$
 $$
 =Z^{0}X^{1}|\psi_{3}\left(01\right)\rangle
 =X\left[\alpha|1\rangle + \beta|0\rangle\right]
+=\left[\alpha|0\rangle + \beta|1\rangle\right]
+=|\psi\rangle
+$$
+
+$$
+|\psi_{4}\left(10\right)\rangle
+$$
+
+$$
+=Z^{1}X^{0}|\psi_{3}\left(10\right)\rangle
+=Z\left[\alpha|0\rangle - \beta|1\rangle\right]
+=\left[\alpha|0\rangle + \beta|1\rangle\right]
+=|\psi\rangle
+$$
+
+$$
+|\psi_{4}\left(11\right)\rangle
+$$
+
+$$
+=Z^{1}X^{1}|\psi_{3}\left(11\right)\rangle
+=ZX\left[\alpha|1\rangle - \beta|0\rangle\right]
 =\left[\alpha|0\rangle + \beta|1\rangle\right]
 =|\psi\rangle
 $$
