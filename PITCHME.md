@@ -277,7 +277,7 @@ $$
 $$
 
 $$
-X \equiv \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}
+X \equiv \begin{bmatrix} 0 & 1\\1 & 0 \end{bmatrix}
 $$
 $$
 X \begin{bmatrix} \alpha \\ \beta \end{bmatrix} = \begin{bmatrix} \beta \\ \alpha \end{bmatrix}
