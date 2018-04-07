@@ -380,8 +380,8 @@ CNOTゲート (controlled-NOTゲート, 制御NOTゲート)
 ![CNOT](assets/cnot.png)
 
 * 入力
-     + ターゲット量子ビット
-     + コントロール量子ビット
+    + コントロール量子ビット
+    + ターゲット量子ビット
 
 $$
 |00\rangle \longrightarrow |00\rangle
@@ -417,7 +417,9 @@ $$
 
 $U_{CN}$もユニタリ行列
 
-$U^{\dagger}_{CN}U_{CN}=I$
+$$
+U^{\dagger}_{CN}U_{CN}=I
+$$
 
 任意の複数論理量子ゲートはCNOTゲートと単一量子ゲートの組み合わせで構成できる。
 
@@ -456,3 +458,30 @@ $$
 \longrightarrow |b,\left(a \oplus b\right) \oplus b \rangle
 = |b,a\rangle
 $$
+
+---
+controlled-Uゲート
+
+![cu gate](assets/cu_gate.png)
+
+* 入力
+    + 1コントロール量子ビット
+    + nターゲット量子ビット
+
+コントロール量子ビットが0の時、ターゲット量子ビットは変化しない
+
+コントロール量子ビットが1の時、n個の量子ビットに対してユニタリ行列Uを作用させる
+
+---
+測定
+
+![measurement](assets/measurement.png)
+
+量子ビット$|\psi\rangle$を測定して古典ビット$M$に変換
+
+二重線は古典ビットを示す
+
+$$
+|\psi\rangle=\alpha|0\rangle + \beta|1\rangle
+$$
+のとき、$\alpha^{2}$の確率で0に$\beta^{2}$の確率で1に変換される。
