@@ -665,7 +665,9 @@ $$
 $$
 
 $$
-= Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle
+= Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle =
+\left[\alpha|0\rangle + \beta|1\rangle\right] =
+|\psi\rangle
 $$
 
 
