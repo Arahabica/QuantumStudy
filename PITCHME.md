@@ -571,7 +571,7 @@ $$
 $$
 
 $$
- = |\psi\rangle|\beta_{00}\rangle 
+ = |\psi\rangle|\beta_{00}\rangle
 $$
 $$
 = \left(\alpha|0\rangle + \beta|1\rangle\right)
@@ -605,6 +605,8 @@ $$
 
 $$
 |\psi_{1}\rangle
+$$
+$$
 = \dfrac{1}{\sqrt{2}}
 \left(
 \left(U_{NC}
