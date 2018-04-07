@@ -440,7 +440,7 @@ $$
     * 出力を複製できない(量子複製不可能性定理)
 
 ---
-スワッピング回路
+#### スワッピング回路
 
 ![swapping circuit](assets/swapping_circuit.png)
 
@@ -460,7 +460,7 @@ $$
 $$
 
 ---
-controlled-Uゲート
+#### controlled-Uゲート
 
 ![cu gate](assets/cu_gate.png)
 
@@ -473,7 +473,7 @@ controlled-Uゲート
 コントロール量子ビットが1の時、n個の量子ビットに対してユニタリ行列Uを作用させる
 
 ---
-測定
+#### 測定
 
 ![measurement](assets/measurement.png)
 
@@ -485,3 +485,48 @@ $$
 |\psi\rangle=\alpha|0\rangle + \beta|1\rangle
 $$
 のとき、$\alpha^{2}$の確率で0に$\beta^{2}$の確率で1に変換される。
+
+---
+#### 量子ビットをコピーする回路は可能か?
+
+![copy qubit](assets/copy_qubit.png)
+
+不可能
+
+$$
+a|00\rangle + b |11\rangle
+$$
+* 1つの量子ビットが確定するともう1つも確定する。
+* aとbに関する追加の情報は得られない。
+* コピーできれば、$a|0\rangle + b |1\rangle$ を複数回観測できるので、aとbに関する追加の情報を得れる。
+
+---
+#### Bell状態 (EPR状態, EPRペア)
+
+* Bell, Einstein, Podolsky, Rosen
+
+![bell states](assets/bell_states.png)
+
+$$
+\beta_{00} = \dfrac{|00\rangle+|11\rangle}{\sqrt{2}}
+$$
+
+$$
+\beta_{01} = \dfrac{|01\rangle+|10\rangle}{\sqrt{2}}
+$$
+
+$$
+\beta_{10} = \dfrac{|00\rangle-|11\rangle}{\sqrt{2}}
+$$
+
+$$
+\beta_{11} = \dfrac{|01\rangle-|10\rangle}{\sqrt{2}}
+$$
+
+$$
+\implies \beta_{xy}= \dfrac{|0,y\rangle+\left(-1^{x}\right)|1,\overline{y}\rangle}{\sqrt{2}}
+$$
+
+---
+
+### 量子テレポテーション
