@@ -567,7 +567,7 @@ $$
 $$
 
 $$
-|\psi_{0}\rangle = 1
+|\psi_{0}\rangle = |\psi\rangle
 $$
 
 $$
