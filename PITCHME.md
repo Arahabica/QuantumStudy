@@ -270,6 +270,8 @@ $2^{n}$個の状態
 
 #### 単一量子ゲート
 
+![single gates](assets/single_gates.png)
+
 1) NOTゲート
 
 $$
@@ -320,17 +322,17 @@ H \equiv
 \end{bmatrix}
 $$
 
-NOTゲートの平方根と言われることもある。
+* NOTゲートの平方根と言われることもある。
 
-ブロッホ球で$y$軸を中心に$90^{\circ}$ 、$x$軸を中心に$180^{\circ}$回転する処理
+* ブロッホ球で$y$軸を中心に$90^{\circ}$ 、$x$軸を中心に$180^{\circ}$回転する処理
 
 ---
 
-単一量子ゲートは2x2のユニタリ行列となる。
+* 単一量子ゲートは2x2のユニタリ行列となる。
 
-任意のユニタリ行列は量子ゲートとなる。
+* 任意のユニタリ行列は量子ゲートとなる。
 
-2x2のユニタリ行列は下記のように合成できる(詳細は4.2)
+* 2x2のユニタリ行列は下記のように合成できる。(詳細は4.2)
 
 
 $$
@@ -351,4 +353,33 @@ e^{-\dfrac{i\delta}{2}} & 0 \\\\
 $$
 $$
 \alpha, \beta, \gamma, \delta \in \mathbb{R}
+$$
+
+---
+
+#### 複数量子ゲート
+
+![multiple gates](assets/multiple_gates.png)
+
+古典ゲート
+
+AND, OR, XOR, NAND, NOR
+
+NANDゲートのみで全てのゲートを構成可能
+
+=> ユニバーサルゲート
+
+---
+
+CNOTゲート (controlled-NOTゲート, 制御NOTゲート)
+
+![CNOT](assets/cnot.png)
+
+* 入力
+     + ターゲット量子ビット
+     + コントロール量子ビット
+
+$$
+|00\rangle \longrightarrow |00\rangle \\
+|00\rangle \longrightarrow |00\rangle
 $$
