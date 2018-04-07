@@ -620,3 +620,22 @@ $$
 \alpha'\dfrac{|0\rangle + |1\rangle}{\sqrt{2}} +
 \beta'\dfrac{|0\rangle - |1\rangle}{\sqrt{2}}
 $$
+
+$$
+= \dfrac{1}{2}\left[
+\alpha\left(|0\rangle+|1\rangle\right)
+\left(|00\rangle + |11\rangle\right) +
+\beta\left(|0\rangle-|1\rangle\right)
+\left(|10\rangle + |01\rangle\right)
+\right]
+$$
+
+$$
+= \dfrac{1}{2}
+\left[
+|00\rangle\left( \alpha|0\rangle+\beta|1\rangle \right) +
+|01\rangle\left( \alpha|1\rangle+\beta|0\rangle \right) +
+|10\rangle\left( \alpha|0\rangle-\beta|1\rangle \right) +
+|11\rangle\left( \alpha|1\rangle-\beta|0\rangle \right)
+\right]
+$$
