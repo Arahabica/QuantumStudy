@@ -263,3 +263,20 @@ $$
 ### $n$ 量子ビット
 
 $2^{n}$個の状態
+
+### 量子ゲート
+
+####　単一量子ゲート
+
+NOTゲート
+
+$$
+\alpha|0\rangle + \beta|1\rangle \longrightarrow \alpha|1\rangle + \beta|0\rangle
+$$
+
+$$
+X\equiv\begin{bmatrix}0&1\\1&0\end{bmatrix}
+$$
+$$
+X\begin{bmatrix}\alpha\\\beta\end{bmatrix} = \begin{bmatrix}\beta\\\alpha\end{bmatrix}
+$$
