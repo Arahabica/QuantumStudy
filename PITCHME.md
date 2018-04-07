@@ -443,9 +443,13 @@ $U^{\dagger}_{CN}U_{CN}=I$
 ![swapping circuit](assets/swapping_circuit.png)
 
 $$
-\begin{array}
-|a,b\rangle \longrightarrow |a,b\rangle \\
-
-\longrightarrow |a,b\rangle
-\end{array}
+|a,b\rangle \longrightarrow |a,a \oplus b\rangle
+$$
+$$
+\longrightarrow |a \oplus \left( a \oplus b\right),a \oplus b\rangle
+ =|b,a \oplus b\rangle
+$$
+$$
+\longrightarrow |b,\left(a \oplus b\right) \oplus b \rangle
+= |b,a\rangle
 $$
