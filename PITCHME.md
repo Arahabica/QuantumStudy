@@ -417,6 +417,34 @@ $$
 
 $U_{CN}$もユニタリ行列
 
-$U^{\dagger}_{CN}U=I$
+$U^{\dagger}_{CN}U_{CN}=I$
 
 任意の複数論理量子ゲートはCNOTゲートと単一量子ゲートの組み合わせで構成できる。
+
+---
+
+### 量子回路
+
+ルール
+
+* 右から左に読む
+* 回路の入力は基本的には全て$|0\rangle$
+
+特徴
+* 非周期的(acyclic) - ループできない
+* FANINできない
+    * 出力数以上の入力量子ビットを扱うゲートは作れない
+* FANOUTできない
+    * 出力を複製できない(量子複製不可能性定理)
+
+---
+スワッピング回路
+
+![swapping circuit](assets/swapping_circuit.png)
+
+$$
+\begin{eqnarray}
+|a,b\rangle \longrightarrow |a,b\rangle \\
+\longrightarrow |a,b\rangle
+\end{eqnarray}
+$$
