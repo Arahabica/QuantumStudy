@@ -567,7 +567,7 @@ $$
 $$
 
 $$
-|\psi_{0}\rangle = |\beta_{00}\rangle 
+|\psi_{0}\rangle = |\beta\rangle 
 $$
 
 $$
