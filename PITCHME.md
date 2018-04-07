@@ -567,9 +567,12 @@ $$
 $$
 
 $$
-|\psi_{0}\rangle = |\beta\rangle 
+|\psi_{0}\rangle
 $$
 
+$$
+ = |\psi\rangle|\beta_{00}\rangle 
+$$
 $$
 = \left(\alpha|0\rangle + \beta|1\rangle\right)
 \left(\dfrac{|00\rangle + |11\rangle }{\sqrt{2}}\right)
