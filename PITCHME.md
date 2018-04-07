@@ -606,6 +606,7 @@ $$
 $$
 |\psi_{1}\rangle
 $$
+
 $$
 = \dfrac{1}{\sqrt{2}}
 \left(
