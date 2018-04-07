@@ -155,7 +155,7 @@ CSS codes (Rovert Calderbank, Peter Shor, Andrew steane) 1996
 * 量子誤り訂正符号
 * 古典的誤り訂正は使えない(<= 複製不可能定理 )
 
-#### 量子テレポテーション ( quantum telepotation )
+量子テレポテーション ( quantum telepotation )
 
 * 容量0の量子チャネルを往復させると、情報を伝えることができる。
 
@@ -524,25 +524,114 @@ $$
 ---
 
 $$
-\beta_{00} = \dfrac{|00\rangle+|11\rangle}{\sqrt{2}}
+|\beta_{00}\rangle = \dfrac{|00\rangle+|11\rangle}{\sqrt{2}}
 $$
 
 $$
-\beta_{01} = \dfrac{|01\rangle+|10\rangle}{\sqrt{2}}
+|\beta_{01}\rangle = \dfrac{|01\rangle+|10\rangle}{\sqrt{2}}
 $$
 
 $$
-\beta_{10} = \dfrac{|00\rangle-|11\rangle}{\sqrt{2}}
+|\beta_{10}\rangle = \dfrac{|00\rangle-|11\rangle}{\sqrt{2}}
 $$
 
 $$
-\beta_{11} = \dfrac{|01\rangle-|10\rangle}{\sqrt{2}}
+|\beta_{11}\rangle = \dfrac{|01\rangle-|10\rangle}{\sqrt{2}}
 $$
 
 $$
-\implies \beta_{xy}= \dfrac{|0,y\rangle+\left(-1^{x}\right)|1,\overline{y}\rangle}{\sqrt{2}}
+\implies |\beta_{xy}\rangle= \dfrac{|0,y\rangle+\left(-1^{x}\right)|1,\overline{y}\rangle}{\sqrt{2}}
 $$
 
 ---
 
 ### 量子テレポテーション
+
+![telepotation circuit](assets/telepotation_circuit.png)
+
+上の2量子ビットをアリスが所有し、下の1量子ビットをボブが所有する。
+
+アリスは2つの量子ビットを測定し、その結果をボブに伝えることにより、ボブに一番上の量子ビットを伝えることができる。
+
+$\longrightarrow$ EPRペアをシェアして、2つの古典ビットを伝えることで量子ビットを伝えることができる
+
+$\longrightarrow$ 異なる量子系のリソースの可換性を示す。
+
+---
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+$$
+$$
+|\beta_{00}\rangle = \dfrac{|00\rangle+|11\rangle}{\sqrt{2}}
+$$
+$$
+|\psi_{0}\rangle = |\psi\rangle|\beta_{00}\rangle
+$$
+$$
+= \left(\alpha|0\rangle + \beta|1\rangle\right)
+\left(\dfrac{|00\rangle + |11\rangle }{\sqrt{2}}\right)
+$$
+$$
+= \dfrac{1}{\sqrt{2}}\left[
+\alpha|0\rangle\left(|00\rangle + |11\rangle\right) +
+\beta|1\rangle\left(|00\rangle + |11\rangle\right)
+\right]
+$$
+$$
+= \dfrac{1}{\sqrt{2}}
+\left(
+\begin{bmatrix}
+|00\rangle & |01\rangle & |10\rangle & |11\rangle
+\end{bmatrix}
+\circ
+\begin{bmatrix}
+|0\rangle & |1\rangle & |0\rangle & |1\rangle
+\end{bmatrix}
+\right)
+\begin{bmatrix}
+\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
+\end{bmatrix}
+$$
+
+---
+
+$$
+|\psi_{1}\rangle
+= \dfrac{1}{\sqrt{2}}
+\left(
+\left(U_{NC}
+\begin{bmatrix}
+|00\rangle & |01\rangle & |10\rangle & |11\rangle
+\end{bmatrix}
+\right)
+\circ
+\begin{bmatrix}
+|0\rangle & |1\rangle & |0\rangle & |1\rangle
+\end{bmatrix}
+\right)
+\begin{bmatrix}
+\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
+\end{bmatrix}
+$$
+$$
+= \dfrac{1}{\sqrt{2}}
+\left(
+\begin{bmatrix}
+|00\rangle & |01\rangle & |11\rangle & |10\rangle
+\end{bmatrix}
+\circ
+\begin{bmatrix}
+|0\rangle & |1\rangle & |0\rangle & |1\rangle
+\end{bmatrix}
+\right)
+\begin{bmatrix}
+\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
+\end{bmatrix}
+$$
+
+$$
+= \dfrac{1}{\sqrt{2}}\left[
+\alpha|0\rangle\left(|00\rangle + |11\rangle\right) +
+\beta|1\rangle\left(|10\rangle + |01\rangle\right)
+\right]
+$$
