@@ -272,6 +272,8 @@ $2^{n}$個の状態
 
 ![single gates](assets/single_gates.png)
 
+---
+
 1) NOTゲート
 
 $$
@@ -361,6 +363,8 @@ $$
 
 ![multiple gates](assets/multiple_gates.png)
 
+---
+
 古典ゲート
 
 AND, OR, XOR, NAND, NOR
@@ -380,6 +384,22 @@ CNOTゲート (controlled-NOTゲート, 制御NOTゲート)
      + コントロール量子ビット
 
 $$
-|00\rangle \longrightarrow |00\rangle \\
 |00\rangle \longrightarrow |00\rangle
 $$
+$$
+|01\rangle \longrightarrow |01\rangle
+$$
+$$
+|10\rangle \longrightarrow |11\rangle
+$$
+$$
+|11\rangle \longrightarrow |10\rangle
+$$
+
+XORを用いると次のように表現できる
+
+$$
+|A,B\rangle \longrightarrow |A,B \oplus A\rangle
+$$
+
+行列を用いると、
