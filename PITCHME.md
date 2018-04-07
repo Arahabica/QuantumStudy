@@ -659,6 +659,14 @@ $$
 |\psi_{3}\left(11\right)\rangle \equiv \left[\alpha|1\rangle - \beta|0\rangle\right]
 $$
 
+
+$$
+|\psi_{4}\left(00\right)\rangle =
+Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle
+$$
+
+
+
 $$
 |\psi_{4}\left(00\right)\rangle =
 Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle =
