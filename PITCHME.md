@@ -280,7 +280,7 @@ $$
 X \equiv
 \left[
 \begin{array}{ccc}
-0 & 1 \\
+0 & 1 \\\\
 1 & 0
 \end{array}
 \right]
