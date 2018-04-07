@@ -585,65 +585,38 @@ $$
 \right]
 $$
 
-$$
-= \dfrac{1}{\sqrt{2}}
-\left(
-\begin{bmatrix}
-|00\rangle & |01\rangle & |10\rangle & |11\rangle
-\end{bmatrix}
-\circ
-\begin{bmatrix}
-|0\rangle & |1\rangle & |0\rangle & |1\rangle
-\end{bmatrix}
-\right)
-\begin{bmatrix}
-\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
-\end{bmatrix}
-$$
 
 ---
-
 $$
 |\psi_{1}\rangle
-$$
-
-$$
-= \dfrac{1}{\sqrt{2}}
-\left(
-\left(U_{NC}
-\begin{bmatrix}
-|00\rangle & |01\rangle & |10\rangle & |11\rangle
-\end{bmatrix}
-\right)
-\circ
-\begin{bmatrix}
-|0\rangle & |1\rangle & |0\rangle & |1\rangle
-\end{bmatrix}
-\right)
-\begin{bmatrix}
-\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
-\end{bmatrix}
-$$
-
-$$
-= \dfrac{1}{\sqrt{2}}
-\left(
-\begin{bmatrix}
-|00\rangle & |01\rangle & |11\rangle & |10\rangle
-\end{bmatrix}
-\circ
-\begin{bmatrix}
-|0\rangle & |1\rangle & |0\rangle & |1\rangle
-\end{bmatrix}
-\right)
-\begin{bmatrix}
-\alpha \\\\ \alpha \\\\ \beta \\\\ \beta
-\end{bmatrix}
-$$
-
-$$
 = \dfrac{1}{\sqrt{2}}\left[
 \alpha|0\rangle\left(|00\rangle + |11\rangle\right) +
 \beta|1\rangle\left(|10\rangle + |01\rangle\right)
 \right]
+$$
+
+$$
+\because CNOT:|00\rangle \longrightarrow |00\rangle
+,
+|01\rangle \longrightarrow |01\rangle
+,
+|10\rangle \longrightarrow |11\rangle
+,
+|11\rangle \longrightarrow |10\rangle
+$$
+
+$$
+|\psi_{2}\rangle
+= \dfrac{1}{\sqrt{2}}\left[
+\alpha\dfrac{|0\rangle+|1\rangle}{\sqrt{2}}
+\left(|00\rangle + |11\rangle\right) +
+\beta\dfrac{|0\rangle-|1\rangle}{\sqrt{2}}
+\left(|10\rangle + |01\rangle\right)
+\right]
+$$
+
+$$
+\because H: \alpha'|0\rangle + \beta'|1\rangle \longrightarrow
+\alpha'\dfrac{|0\rangle + |1\rangle}{\sqrt{2}} +
+\beta'\dfrac{|0\rangle - |1\rangle}{\sqrt{2}}
 $$
