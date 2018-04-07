@@ -561,22 +561,27 @@ $\longrightarrow$ 異なる量子系のリソースの可換性を示す。
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 $$
+
 $$
 |\beta_{00}\rangle = \dfrac{|00\rangle+|11\rangle}{\sqrt{2}}
 $$
+
 $$
 |\psi_{0}\rangle = |\psi\rangle|\beta_{00}\rangle
 $$
+
 $$
 = \left(\alpha|0\rangle + \beta|1\rangle\right)
 \left(\dfrac{|00\rangle + |11\rangle }{\sqrt{2}}\right)
 $$
+
 $$
 = \dfrac{1}{\sqrt{2}}\left[
 \alpha|0\rangle\left(|00\rangle + |11\rangle\right) +
 \beta|1\rangle\left(|00\rangle + |11\rangle\right)
 \right]
 $$
+
 $$
 = \dfrac{1}{\sqrt{2}}
 \left(
@@ -613,6 +618,7 @@ $$
 \alpha \\\\ \alpha \\\\ \beta \\\\ \beta
 \end{bmatrix}
 $$
+
 $$
 = \dfrac{1}{\sqrt{2}}
 \left(
