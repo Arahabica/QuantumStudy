@@ -270,10 +270,10 @@ $2^{n}$個の状態
 
 #### 単一量子ゲート
 
-NOTゲート
+1) NOTゲート
 
 $$
-\alpha|0\rangle + \beta|1\rangle \longrightarrow \alpha|1\rangle + \beta|0\rangle
+\alpha|0\rangle + \beta|1\rangle \longrightarrow \beta|0\rangle + \alpha|1\rangle
 $$
 
 $$
@@ -286,3 +286,40 @@ $$
 $$
 X \begin{bmatrix} \alpha \\\\ \beta \end{bmatrix} = \begin{bmatrix} \beta \\\\ \alpha \end{bmatrix}
 $$
+
+---
+
+2) Z ゲート
+
+$$
+\alpha|0\rangle + \beta|1\rangle \longrightarrow \alpha|0\rangle - \beta|1\rangle
+$$
+
+$$
+Z \equiv
+\begin{bmatrix}
+1 & 0 \\\\
+0 & -1
+\end{bmatrix}
+$$
+
+3) Hadamardゲート (アダマールゲート)
+
+$$
+\alpha|0\rangle + \beta|1\rangle \longrightarrow
+\alpha\dfrac{|0\rangle + |1\rangle}{\sqrt{2}} +
+\beta\dfrac{|0\rangle - |1\rangle}{\sqrt{2}}
+$$
+
+$$
+H \equiv
+\dfrac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 & 1 \\\\
+1 & -1
+\end{bmatrix}
+$$
+
+NOTゲートの平方根と言われることもある。
+
+ブロッホ球で$y$軸を中心に$90^{\circ}$、$x$軸を中心に$180^{\circ}$回転する処理
