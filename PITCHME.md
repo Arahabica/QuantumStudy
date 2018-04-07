@@ -443,8 +443,9 @@ $U^{\dagger}_{CN}U_{CN}=I$
 ![swapping circuit](assets/swapping_circuit.png)
 
 $$
-\begin{eqnarray}
+\begin{array}
 |a,b\rangle \longrightarrow |a,b\rangle \\
+
 \longrightarrow |a,b\rangle
-\end{eqnarray}
+\end{array}
 $$
