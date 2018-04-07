@@ -639,3 +639,37 @@ $$
 |11\rangle\left( \alpha|1\rangle-\beta|0\rangle \right)
 \right]
 $$
+
+---
+前方2量子ビット観測
+
+$$
+|\psi_{3}\left(00\right)\rangle \equiv \left[\alpha|0\rangle + \beta|1\rangle\right]
+$$
+
+$$
+|\psi_{3}\left(01\right)\rangle \equiv \left[\alpha|1\rangle + \beta|0\rangle\right]
+$$
+
+$$
+|\psi_{3}\left(10\right)\rangle \equiv \left[\alpha|0\rangle - \beta|1\rangle\right]
+$$
+
+$$
+|\psi_{3}\left(11\right)\rangle \equiv \left[\alpha|1\rangle - \beta|0\rangle\right]
+$$
+
+$$
+|\psi_{4}\left(00\right)\rangle =
+Z^{0}X^{0}|\psi_{3}\left(00\right)\rangle =
+\left[\alpha|0\rangle + \beta|1\rangle\right] =
+|\psi\rangle
+$$
+
+$$
+|\psi_{4}\left(01\right)\rangle =
+Z^{0}X^{1}|\psi_{3}\left(01\right)\rangle =
+X\left[\alpha|1\rangle + \beta|0\rangle\right] =
+\left[\alpha|0\rangle + \beta|1\rangle\right] =
+|\psi\rangle
+$$
