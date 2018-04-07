@@ -322,4 +322,33 @@ $$
 
 NOTゲートの平方根と言われることもある。
 
-ブロッホ球で$y$軸を中心に$90^{\circ}$、$x$軸を中心に$180^{\circ}$回転する処理
+ブロッホ球で$y$軸を中心に$90^{\circ}$ 、$x$軸を中心に$180^{\circ}$回転する処理
+
+---
+
+単一量子ゲートは2x2のユニタリ行列となる。
+
+任意のユニタリ行列は量子ゲートとなる。
+
+2x2のユニタリ行列は下記のように合成できる(詳細は4.2)
+
+
+$$
+U=e^{i\alpha}
+\begin{bmatrix}
+e^{-\dfrac{i\beta}{2}} & 0 \\\\
+0 & e^{\dfrac{i\beta}{2}}
+\end{bmatrix}
+\begin{bmatrix}
+\cos \dfrac{\gamma}{2} & - \sin \dfrac{\gamma}{2} \\\\
+\sin \dfrac{\gamma}{2} & \cos \dfrac{\gamma}{2}
+\end{bmatrix}
+,
+\begin{bmatrix}
+e^{-\dfrac{i\delta}{2}} & 0 \\\\
+0 & e^{\dfrac{i\delta}{2}}
+\end{bmatrix}
+$$
+$$
+\alpha, \beta, \gamma, \delta \in \mathbb{R}
+$$
